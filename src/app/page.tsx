@@ -1,6 +1,6 @@
 import Category from "@/components/homeComponents/Category";
 import Hero from "@/components/homeComponents/Hero";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
