@@ -1,5 +1,3 @@
-import Link from "next/link";
-import * as motion from "motion/react-client"
 import { Button } from "@/components/ui/button"
 
 
@@ -29,7 +27,7 @@ export default function Hero() {
                         tahun, hingga acara formal. Cukup pilih template, sesuaikan isi,
                         dan bagikan ke tamu undanganmu dalam hitungan menit!
                 </p>
-                <Button className="about-btn">Buat Undangan Digital Sekarang juga</Button>
+                <Button>Buat Undangan Digital Sekarang juga</Button>
 
                 
             </div>
