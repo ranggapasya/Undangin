@@ -1,13 +1,6 @@
 import { Button } from "@/components/ui/button"
 
 
-const box = {
-    width: 100,
-    height: 100,
-    backgroundColor: "#ff0088",
-    borderRadius: 5,
-}
-
 export default function Hero() {
   return (
     <div className="flex min-h-screen w-screen flex-col items-center justify-between p-24">
