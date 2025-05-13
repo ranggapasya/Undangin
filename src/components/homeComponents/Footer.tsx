@@ -6,7 +6,7 @@ export default function Home() {
          <img src="gif/Gelombang-Biru.gif" alt="logo" className="w-80 mt-2" />
 
          <div className="flex flex-col w-fit justify-center items-center">
-          <p className="text-[48px] font-bold mb-3 px-4 py-2 bg-orange-400 text-white text-center rounded-3xl shadow-lg">
+          <p className="text-4xl font-bold mb-3 px-4 py-2 bg-orange-400 text-white text-center rounded-3xl shadow-lg">
               Jadikan Momenmu Lebih Berkesan
           </p>
           <p className="order text-[30px] font-semibold w-fit mb-2 mt-2 px-5 py-1.5 bg-blue-600 text-white text-center rounded-2xl shadow-lg">
