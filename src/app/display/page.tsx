@@ -3,7 +3,8 @@
 'use client';
 
 import { useState } from 'react';
-import ProductCard from '@/components/displayComponents/catalog';
+import ProductCard from '@/components/displayComponents/productcard';
+
 
 type Category = 'birthday' | 'wedding' | 'others';
 
