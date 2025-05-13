@@ -16,12 +16,12 @@ const PRODUCTS: Record<Category, { title: string; price: string; imageUrl: strin
     { title: 'Template Birthday #04', price: 'Rp. 160.000', imageUrl: '/images/Birthday-Party.png' },
   ],
   wedding: [
-    { title: 'Template Wedding #01', price: 'Rp. 200.000', imageUrl: '/images/Wedding-Template.png' },
-    { title: 'Template Wedding #02', price: 'Rp. 220.000', imageUrl: '/images/Wedding-Template.png' },
-    { title: 'Template Wedding #03', price: 'Rp. 240.000', imageUrl: '/images/Wedding-Template.png' },
+    { title: 'Template Wedding #01', price: 'Rp. 120.000', imageUrl: '/images/Wedding-Party.png' },
+    { title: 'Template Wedding #02', price: 'Rp. 125.000', imageUrl: '/images/Wedding-Party.png' },
+    { title: 'Template Wedding #03', price: 'Rp. 150.000', imageUrl: '/images/Wedding-Party.png' },
   ],
   others: [
-    { title: 'Template Event #01', price: 'Rp. 180.000', imageUrl: '/images/Event-Template.png' },
+    { title: 'Template Lainnya #01', price: 'Rp. 180.000', imageUrl: '/images/Custom-Invitation.png' },
   ],
 };
 
