@@ -1,12 +1,11 @@
 // components/Navbar.tsx
 "use client";
 
-import { useNavbar } from "@/Context/NavBarContext";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar() {
-  const { activeMenu, setActiveMenu } = useNavbar();
+
 
   return (
     <nav className="w-full bg-[#003F91] py-4 px-8 flex items-center justify-between">
