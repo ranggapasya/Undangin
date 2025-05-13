@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export default function WhyUs() {
   return (
-    <section className="bg-blue-100 py-10 flex justify-center">
+    <section id="fitur" className="bg-blue-100 py-10 flex justify-center">
       <div className="bg-white p-6 rounded-lg shadow-lg max-w-2xl w-full text-center relative">
         <h2 className="bg-blue-500 text-white px-4 py-2 rounded-full inline-block mb-4 text-lg font-semibold">
           Kenapa Harus Undang.in?
@@ -20,9 +22,9 @@ export default function WhyUs() {
           </video>
         </div>
 
-        <button className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-orange-600 transition">
+        <Link href="#package" className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-orange-600 transition">
           Lihat Paket →
-        </button>
+        </Link>
       </div>
     </section>
   );

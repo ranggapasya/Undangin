@@ -3,6 +3,7 @@ import Hero from "@/components/homeComponents/Hero";
 import WhyUs from "@/components/homeComponents/WhyUs";
 import Package  from "@/components/homeComponents/Package";
 import Faq from "@/components/homeComponents/Faq";
+import Footer from "@/components/homeComponents/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <WhyUs />
       <Package />
       <Faq />
+      <Footer />
     </div>
   );
 }

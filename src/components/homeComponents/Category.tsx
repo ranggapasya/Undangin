@@ -6,17 +6,17 @@ const HomePage: React.FC = () => {
     {
       title: 'Birthday Party',
       image: '/images/Birthday-Party.png', // pastikan gambar ada di folder public/images
-      link: '/birthday'
+      link: 'http://localhost:3000/display'
     },
     {
       title: 'Wedding Party',
       image: '/images/Wedding-Party.png',
-      link: '/wedding'
+      link: 'http://localhost:3000/display'
     },
     {
       title: 'Custom Invitation',
       image: '/images/Custom-Invitation.png',
-      link: '/custom'
+      link: 'http://localhost:3000/display'
     }
   ];
 

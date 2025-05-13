@@ -144,3 +144,19 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.faq:hover {
+  scale: 1.05;
+  transition: all 0.8s ease;
+}
+
+.order:hover {
+  background: #f0f0f0;
+  color: blue;
+  box-shadow: 2px 2px 2px rgba(black, black, black, 1);
+  transition: all 0.5s ease;
+}
+

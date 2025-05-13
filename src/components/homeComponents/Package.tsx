@@ -50,7 +50,7 @@ const packages = [
 
 const Package = () => {
   return (
-    <div className="w-full bg-[#D6E8FF] py-12">
+    <div id='package' className="w-full bg-[#D6E8FF] py-12">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-blue-900">
           Pilih Paket Sesuai Kebutuhanmu

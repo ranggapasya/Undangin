@@ -33,7 +33,7 @@ const FAQSection = () => {
       {/* Konten FAQ */}
       <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto px-4 pb-10">
         {faqData.map((faq, index) => (
-          <div key={index} className="bg-orange-400 text-white p-6 rounded-xl shadow-md">
+          <div key={index} className="faq bg-orange-400 text-white p-6 rounded-xl shadow-md cursor-pointer">
             <h3 className="font-semibold mb-2">• {faq.question}</h3>
             <p>{faq.answer}</p>
           </div>

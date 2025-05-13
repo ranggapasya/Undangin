@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
-    <div className="relative flex w-full flex-col items-center justify-center px-4 py-15 mt-8 bg-white overflow-hidden">
+    <div className="relative flex w-full flex-col items-center justify-center px-4 pt-15 pb-30 mt-8 bg-white overflow-hidden">
       <div className="flex flex-col md:flex-row items-center justify-between w-[90%] max-w-6xl gap-10 z-50 px-10">
         
         {/* Left Side */}
